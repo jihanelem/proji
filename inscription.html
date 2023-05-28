@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Global Task Manager - Inscription</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="login-container" style="background-image: url('student.jpg');">
+        <div class="logo">
+            <img src="logogtm1.png" alt="Logo">
+        </div>
+
+        <form action="inscription.php" method="POST" class="animate__animated animate__fadeInUp">
+            <div class="form-group">
+                <label for="nom">Entrez votre nom:</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Entrez votre prenom:</label>
+                <input type="prenom" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Entrez votre email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Choisissez un username:</label>
+                <input type="username" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Choisissez un mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Confirmez votre mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="departement">Selectionnez votre Departement :</label>
+                <select id="departement" name="departement">
+                    <option value="informatique">Informatique</option>
+                    <option value="Buisness">Buisness</option>
+                </select>
+                <div class="form-group">
+                    <label for="campus">Selectionnez votre Departement :</label>
+                    <select id="campus" name="campus">
+                        <option value="Casablanca">casablanca</option>
+                        <option value="Rabat">Rabat</option>
+                        <option value="Tanger">tanger</option>
+                        <option value=" Marrakech">Marrakech</option>
+                    </select>
+                <label for="etat">Selectionnez votre Etat :</label>
+                <select id="etat" name="etat">
+                    <option value="Admin">Admin</option>
+                    <option value="Professeur">Professeur</option>
+                    <option value="Etudiant">Etudiant</option>
+                </select>
+            </div>
+            <a href="Inscription.php"></a>
+            <button type="submit" class="animate__animated animate__bounceIn">S'inscrire</button>
+        </form>
+    </div>
+</body>
+
+</html>

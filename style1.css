@@ -1,0 +1,99 @@
+body {
+    background-color: #f4f3fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    margin: auto;
+    max-width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo {
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+  }
+  
+  h1 {
+    display: none;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #dde4eb;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3de4b7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3de4b7;
+  }
+  
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  .animate__bounceIn {
+    animation-name: bounceIn;
+  }
+  
+  input[type="submit"] {
+    background-color: #00CED1; 
+    color: #FFFFFF; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #008B8B;
+  }
+  
+  

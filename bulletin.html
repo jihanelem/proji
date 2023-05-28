@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head> 
+ <link rel="stylesheet" href="absence.css">
+ <body>
+    <form method="post" action="bulletin.php">
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" required><br>
+      
+        <label for="prenom">Prenom :</label>
+        <input type="text" name="prenom" id="prenom" required><br>
+      
+        <label for="annee">Annee :</label>
+        <select name="annee" id="annee" required>
+          <option value="">Selectionner une annee</option>
+          <option value="1">1ere annee</option>
+          <option value="2">2eme annee</option>
+          <option value="3">3eme annee</option>
+        </select><br>
+      
+        <label for="departement">Departement :</label>
+        <input type="text" name="departement" id="departement" required><br>
+      
+        <label for="campus">Campus :</label>
+        <input type="text" name="campus" id="campus" required><br>
+      <br>
+        <input type="submit" value="Afficher le bulletin">
+      </form>
+      
+ </body>
+ </html>
+ 
+ 

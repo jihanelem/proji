@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Espace Etudiant</title> </title>
+    <link rel="stylesheet" type="text/css" href="justif.css">
+</head>
+<body>
+    <header>
+       
+        <div class="title">
+            <h1>Espace Etudiant</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Justification des absences</h2>
+            <form action="justification_absence.php" method="POST">
+                <label for="nom_etudiant">Nom :</label>
+                <input type="text" id="nom_etudiant" name="nom_etudiant" required>
+
+                <label for="prenom_etudiant">Prenom :</label>
+                <input type="text" id="prenom_etudiant" name="prenom_etudiant" required>
+
+                <label for="matiere">Matiere :</label>
+                <input type="text" id="matiere" name="matiere" required>
+
+                <label for="justif">Justification :</label>
+                <textarea id="justif" name="justif" required></textarea>
+
+                <label for="commentaires">Commentaires :</label>
+                <textarea id="commentaires" name="commentaires"></textarea>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </div>
+</body>
+</html>

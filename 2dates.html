@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verification des absences</title>
+    <link rel="stylesheet" type="text/css" href="2dates.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Verification des absences</h2>
+        <form method="post" action="2dates.php">
+            <div class="form-group">
+                <label for="nom_etudiant">Nom de l'etudiant :</label>
+                <input type="text" name="nom_etudiant" id="nom_etudiant" required>
+            </div>
+            <div class="form-group">
+                <label for="dateDebut">Date de debut :</label>
+                <input type="date" name="dateDebut" id="dateDebut" required>
+            </div>
+            <div class="form-group">
+                <label for="dateFin">Date de fin :</label>
+                <input type="date" name="dateFin" id="dateFin" required>
+            </div>
+            <br>
+            <button type="submit">Verifier</button>
+        </form>
+    </div>
+</body>
+</html>

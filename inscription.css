@@ -1,0 +1,72 @@
+
+
+
+body {
+    background-color: #073f80;
+  }
+  
+
+  .homepage-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+
+  .homepage-container h1 {
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #0d2d52;
+    margin-bottom: 50px;
+  }
+  
+
+  .homepage-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+  
+  
+  .homepage-item {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #0d2d52;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .homepage-item:hover {
+    transform: translateY(-40px);
+  }
+  
+ 
+  .homepage-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  .homepage-item h2 {
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-decoration: none;
+    color: #3947b5;
+    
+  }
+  #departement{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+
+  }

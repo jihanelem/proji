@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Global Task Manager - Login</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="login-container" style="background-image: url('student.jpg');">
+        <div class="logo">
+            <img src="logogtm1.png" alt="Logo">
+        </div>
+
+        <form action="connection.php" method="POST" class="animate__animated animate__fadeInUp">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <a href="connection.php"></a>
+            <button type="submit" class="animate__animated animate__bounceIn">Log In</button>
+        </form>
+    </div>
+</body>
+
+</html>

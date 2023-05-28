@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Global Task Manager - retard</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="login-container" style="background-image: url('student.jpg');">
+        <div class="logo">
+            <img src="logogtm1.png" alt="Logo">
+        </div>
+
+        <form action="retard.php" method="POST" class="animate__animated animate__fadeInUp">
+            <div class="form-group">
+                <h1 >Veuillez enregistré vos absences</h1>
+                <label for="nom">Entrez votre nom:</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Entrez votre prenom:</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="annee">Entrez votre annee:</label>
+                <input type="text" id="annee" name="annee" required>
+            </div>
+            <div class="form-group">
+                <label for="campus">Selectionnez votre Departement :</label>
+                <select id="campus" name="campus">
+                    <option value="Casablanca">casablanca</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Tanger">tanger</option>
+                    <option value=" Marrakech">Marrakech</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="datee">Date</label>
+                <input type="date" id="datee" name="datee" required>
+            </div>
+            <div class="form-group">
+                <label for="matiere">Matiere:</label>
+                <input type="text" id="matiere" name="matiere" required>
+            </div>
+
+            <div class="form-group">
+                <label for="departement">Departement:</label>
+                <input type="text" id="departement" name="departement" required>
+            </div>
+
+            <div class="form-group">
+                <label for="retard"> retard en minutes :</label>
+                <input type="number" id="retard" name="retard" >
+            </div>
+
+            </div>
+            <button type="submit" class="animate__animated animate__bounceIn">Enregistrer retard</button>
+        </form>
+    </div>
+</body>
+
+</html>
